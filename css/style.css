@@ -311,7 +311,7 @@ html, body {
 		font-size: 13px;
 	}
 	.functions .items .item2 {
-		flex: 0 48%;
+		flex: 0 45%;
 	}
 	.functions .details .item {
 		min-height: 250px;

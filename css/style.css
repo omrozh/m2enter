@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap');
+
+html, body {
+	background-color: #fff !important;
+}
+.navbar {
+	background: #fff;
+}
+.navbar .content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+}
+.navbar .menus a.menu-link {
+    font-family: 'Poppins';
+    text-decoration: none !important;
+    color: #000;
+    font-size: 15px;
+}
+.navbar .menus {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.navbar .menus a.menu-link.spec-menu-link {
+    background: rgb(232,207,134);
+    background: linear-gradient(0deg, rgba(232,207,134,1) 0%, rgba(160,125,84,1) 100%);
+    padding: 10px 20px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 14px;
+}
+
+.slide .details {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-family: 'Poppins';
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.slide .details h3, .slide .details h4 {
+    font-size: 31pt;
+}
+
+.slide .details p {
+    font-size: 12.5pt;
+}
+
+.slider .slide {
+    background: url(/img/slider.png);
+    background-size: cover;
+    height: 500px;
+}
+
+.slider .buttons .spec a {
+    background: rgb(232, 207, 134);
+    background: linear-gradient(0deg, rgba(232, 207, 134, 1) 0%, rgba(160, 125, 84, 1) 100%);
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+
+.slider .buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.slider .buttons .skype a img {width: 25px;}
+
+.navbar .menus a.menu-link,
+.slider .buttons .spec,
+.slider .buttons .skype
+{
+	transition: 0.1s all;
+}
+
+.navbar .menus a.menu-link:hover,
+.slider .buttons .spec:hover,
+.slider .buttons .skype:hover
+{
+	transform: scale(1.025);
+}
+.functions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 25px 0;
+	margin-top: 12.5px;
+}
+.functions .items, .functions .details {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.functions .items .item, .functions .details .item {
+    -webkit-box-shadow: 0px 0px 25px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 25px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 25px -10px rgba(0,0,0,0.75);
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 21px;
+    font-family: 'Poppins';
+    flex: 0 25%;
+    text-align: center;
+    cursor: default;
+	transition: 0.1s all;
+}
+.functions .details .item {
+    flex: 0 100%;
+}
+.functions .items .item2 {
+    flex: 0 24%;
+}
+.functions .items .item:hover, .functions .details .item:hover
+{
+	transform:scale(1.025);
+}
+.functions .items .item img {
+    width: 35px;
+}
+.functions .title {
+    font-size: 21px;
+    font-family: 'Poppins';
+}
+.functions .details .item {
+    font-size: 17px;
+}
+.functions .details .item a {
+    text-decoration: none;
+    color: #00ff42;
+}
+.solutions {
+    margin-top: 25px;
+}
+.solutions .title {
+    font-size: 21px;
+    font-family: 'Poppins';
+    text-align: center;
+	margin-bottom: 50px;
+}
+.solutions .title p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.solutions .details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 15px;
+    font-family: 'Poppins';
+}
+.solutions .details .item {
+    -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+    padding: 25px;
+	cursor: default;
+	transition: 0.1s all;
+}
+.solutions .details .item:hover
+{
+	transform:scale(1.025);
+}
+.solutions .details .item span {
+    display: block;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+.solutions .details .item p {
+    font-size: 17px;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin-top: 25px;
+    font-family: 'Poppins';
+	-webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+    padding: 25px;
+}
+.contacts span.firstspan {
+    max-width: 600px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2;
+}
+.contacts form {
+    width: 100%;
+}
+.form .co1, .form .co2 {
+    flex: 0 50%;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 25px;
+    margin-top: 25px;
+}
+.form input, .form textarea {
+    -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.75);
+    border: 0 !important;
+    border-radius: 25px;
+    width: 100%;
+    padding: 15px;
+}
+.form .co1 .t {
+    display: flex;
+    gap: 15px;
+}
+.form .co1 .a {
+    text-align: center;
+    margin-top: 15px;
+}
+.form .co1 .a span.skype {
+    color: #00a6e3;
+    font-weight: bold;
+}
+.form .co1 .a p {
+    font-size: 19px;
+}
+.form .skypes a {
+    width: 200px;
+    transition: 0.1s all;
+}
+.form .skypes a img {
+    width: 100%;
+}
+.form .skypes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.form .skypes a:hover {
+    transform: scale(1.025);
+}
+.form .co2 .a button {
+    background: #0ec700 !important;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0px;
+}
+.form .co2 .a span {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+	font-size: 14px;
+}
+.copyright {
+    margin: 25px 0;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+@media only screen and (max-width: 768px) {
+	.navbar .content {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.functions .items .item, .functions .details .item {
+		font-size: 11px;
+	}
+	.functions .items .item.no-space {
+		white-space: nowrap;
+	}
+	.functions .items .item img {
+		width: 20px;
+	}
+	.solutions .details .item p {
+		font-size: 13px;
+	}
+	.functions .items .item2 {
+		flex: 0 48%;
+	}
+	.functions .details .item {
+		min-height: 250px;
+	}
+}
+/* mobile */
+@media screen and (max-width: 767px) {
+	.navbar .menus a.menu-link {
+		font-size: 15px;
+	}
+	.navbar .menus {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+		margin-top: 10px;
+	}
+	.navbar .menus a.menu-link.spec-menu-link {
+	}
+	.navbar.sticky-top {
+		position: initial !important;
+	}
+	.navbar .content img {
+		width: 100%;
+	}
+	.navbar .content {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.functions .items .item {
+		flex: 0 48%;
+	}
+	.functions .items, .functions .details {
+		flex-wrap: wrap;
+	}
+	.functions .details .item {
+		flex: 0 100%;
+	}
+	.solutions .details {
+		flex-wrap: wrap;
+	}
+	.form {
+		flex-wrap: wrap;
+		margin-top: 0;
+	}
+	.form .co1, .form .co2 {
+		flex: 0 100%;
+	}
+	.form .skypes a {
+		width: 150px;
+	}
+	.form .co1 .a {
+		order: 1;
+		margin-top: 0;
+	}
+	.form .co1 .t {
+		order: 2;
+	}
+	.form .co1 {
+		display: grid;
+	}
+	.form .co1 .a span:first-child, .form .co1 .a p {
+		display: none;
+	}
+	.form .skypes {
+		margin-bottom: 15px;
+	}
+	.functions .details .item {
+		min-height: auto;
+	}
+}
+@media screen and (max-width: 375px) {
+	.slide .details {
+		height: auto;
+	}
+	.functions .items .item2 {
+        flex: 0 100%;
+    }
+	.functions .details .item {
+        flex: 0 100%;
+    }
+	.functions .details .item {
+		min-height: auto;
+	}
+}
+@media screen and (max-width: 320px) {
+	.slide .details h3, .slide .details h4 {
+		font-size: 20pt;
+	}
+	.form .skypes a {
+        width: 125px;
+    }
+	.form input, .form textarea {
+		padding: 10px 5px;
+	}
+	.contacts {
+		text-align: center;
+	}
+	.contacts span.firstspan {
+		font-size: 13px;
+		line-height: normal;
+	}
+	.slide .details p {
+		font-size: 10.5pt;
+	}
+	.slide .details {
+		padding: 10px;
+		padding-top: 100px;
+	}
+}
